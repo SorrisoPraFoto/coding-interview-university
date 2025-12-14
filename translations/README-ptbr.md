@@ -531,11 +531,11 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
         - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays) (Arrays Dinâmicos - vídeo)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g) (Arrays Multidimensionais - vídeo)
     - [ ] Implementar um vetor (array mutável com redimensionamento automático):
-        - [ ] Praticar programação usando arrays e ponteiros, e matemática de ponteiros para pular para um índice ao invés de usar indexação.
-        - [ ] novo array de dados brutos com memória alocada
+        - [X] Praticar programação usando arrays e ponteiros, e matemática de ponteiros para pular para um índice ao invés de usar indexação.
+        - [X] novo array de dados brutos com memória alocada
             - pode alocar array de números inteiros por de baixo dos panos, só não pode usar seus recursos
             - começa com 16, ou se o número inicial for maior, usar potência de 2 - 16, 32, 64, 128
-        - [ ] size() - número de itens
+        - [X] size() - número de itens
         - [ ] capacity() - número de itens que pode conter
         - [ ] is_empty()
         - [ ] at(index) - retorna o item que está no índice fornecido, dá erro se o índice estiver fora da capacidade do array
