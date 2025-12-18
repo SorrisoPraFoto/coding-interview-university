@@ -580,10 +580,10 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
         - [X] pop_front() - remove o item do início da lista e retorna o seu valor
         - [X] push_back(valor) - adiciona um item no final da lista
         - [X] pop_back() - remove um item do final e retorna seu valor
-        - [ ] front() - obtém valor do item que está no início da lista
-        - [ ] back() - obtém valor do item que está no final da lista
-        - [ ] insert(índice, valor) - insere "valor" no "índice", e depois o item atual naquele índice é apontado pelo novo item no "índice"
-        - [ ] erase(índice) - remove o node (nó) no índice fornecido
+        - [X] front() - obtém valor do item que está no início da lista
+        - [X] back() - obtém valor do item que está no final da lista
+        - [X] insert(índice, valor) - insere "valor" no "índice", e depois o item atual naquele índice é apontado pelo novo item no "índice"
+        - [X] erase(índice) - remove o node (nó) no índice fornecido
         - [ ] value_n_from_end(n) - retorna o valor do node (nó) na posição n a partir do final da lista
         - [ ] reverse() - reverte a lista
         - [ ] remove_value(valor) - remove o primeiro item na lista com esse valor
