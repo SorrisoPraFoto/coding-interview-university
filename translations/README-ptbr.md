@@ -584,32 +584,32 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
         - [X] back() - obtém valor do item que está no final da lista
         - [X] insert(índice, valor) - insere "valor" no "índice", e depois o item atual naquele índice é apontado pelo novo item no "índice"
         - [X] erase(índice) - remove o node (nó) no índice fornecido
-        - [ ] value_n_from_end(n) - retorna o valor do node (nó) na posição n a partir do final da lista
-        - [ ] reverse() - reverte a lista
-        - [ ] remove_value(valor) - remove o primeiro item na lista com esse valor
+        - [X] value_n_from_end(n) - retorna o valor do node (nó) na posição n a partir do final da lista
+        - [X] reverse() - reverte a lista
+        - [X] remove_value(valor) - remove o primeiro item na lista com esse valor
     - [ ] Listas Ligadas Duplamente
         - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists) (Descrição - vídeo)
         - Não há necessidade de implementar
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
-    - [ ] Não implementarei. Implementar com array é trivial.
+    - [X] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
+    - [X] Não implementarei. Implementar com array é trivial.
 
 - ### Queue (Fila)
-    - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
-    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer) 
-    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)(Buffer circular/Primeiro a entrar, último a sair)
-    - [ ] Implementar usando lista ligada, com ponteiro de cauda (aponta para o último elemento de uma lista):
+    - [X] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+    - [X] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer) 
+    - [X] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)(Buffer circular/Primeiro a entrar, último a sair)
+    - [X] Implementar usando lista ligada, com ponteiro de cauda (aponta para o último elemento de uma lista):
         - enqueue(valor) - adiciona "valor" na posição na cauda (final da lista)
         - dequeue() - retorna um valor e remove o elemento menos recentemente adicionado (início da lista))
         - empty()
-    - [ ] Implementar usando arrays de tamanho-fixo:
+    - [X] Implementar usando arrays de tamanho-fixo:
         - enqueue(valor) - adiciona um item no final do armazenamento disponível
         - dequeue() - retorna um valor e remove um elemento menos recentemente adicionado 
         - empty()
         - full()
-    - [ ] Custo:
+    - [X] Custo:
         - uma implementação ruim usando lista ligada na qual você coloca na fila (enqueue) no head (cabeça/início da lista) e tira da fila (dequeue) no tail (cauda/final da lista) seria O(n)
             porque você precisaria do penúltimo elemento, causando uma transversal completa a cada dequeue 
         - enqueue: O(1) (amortizado, lista ligada e array [sondagem])
