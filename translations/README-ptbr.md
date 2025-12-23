@@ -628,13 +628,13 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
 
     - [ ] Cursos Online:
         - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables) (Fundamentos de Tabelas Hash - vídeo)
-        - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3) (Estruturas de Dados - vídeo)
+        - [X] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3) (Estruturas de Dados - vídeo)
         - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem) (Problema da Lista Telefônica (vídeo) )
         - [ ] tabelas hash distribuídas:
             - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox) (Uploads Instantâneos E Otimização de Armazenamento no Dropbox - vídeo)
             - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables) (Tabelas Hash Distribuídas - vídeo)
 
-    - [ ] implementar com array usando sondagem linear
+    - [X] implementar com array usando sondagem linear
         - hash(k, m) - m é o tamanho da tabela hash
         - add(chave, valor) - se a chave já existe, atualizar o valor
         - exists(chave)
